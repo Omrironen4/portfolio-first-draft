@@ -1,0 +1,167 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+header {
+    display: flex;
+    padding: 1%;
+    background-color: #13293d;
+    color: white;
+}
+
+h1{
+    font-size: x-large;
+    font-family: sans-serif;
+    color: white;
+}
+
+#titleWork {
+    text-decoration: underline;
+}
+
+.container {
+    width: 100%;
+    margin: 5px auto;
+}
+
+.tabs {
+    position: absolute;
+    top: 22px;
+    right: 51px;
+    display: inline-flex;
+    justify-content: space-between;
+    width: 300px;
+}
+
+
+nav a {
+    color: white;
+    font-size: large;
+}
+
+nav a:hover {
+    font-weight: 900;
+    font-style:unset;
+}
+
+
+
+nav ul{
+    display: flex;
+    justify-content: space-between; 
+    display: inline-block;
+}
+
+body {
+    margin: 0;
+    line-height: 2;
+    /* background-color:#521e27; */
+    background-color: #000;
+}
+
+#Welcome {
+   position: relative;
+   right: -43%;
+}
+
+#WelcomePic {
+    display: flex;
+    width: 1435px;
+    height: 690px;
+    border-radius: 200px;
+}
+
+
+#MePic {
+    object-fit: cover;
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+    position: relative;
+    top: 2mm;
+    left: 49mm;
+}
+
+#AboutMe {
+    position: relative;
+    top: 30px;
+    left: 900px;
+    color: white;
+}
+
+#bib {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    color: white;
+    width: 500px;
+    height: 0;
+    margin: 20px;
+    top: -300px;
+    left: 700px;
+}
+
+#MyWorkPic {
+    object-fit: cover;
+    border-radius: 56%;
+    width: 520px;
+    height: 520px;
+    position: relative;
+    top: 2mm;
+    left: 31mm;
+}
+
+#MyWork {
+    position: relative;
+    top: 30px;
+    left: 900px;
+    color: white;
+}
+
+#MyWorkBib {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    color: white;
+    width: 500px;
+    height: 0;
+    margin: 20px;
+    top: -500px;
+    left: 700px;
+}
+
+#ContactMe {
+    position: relative;
+    top: 190px;
+    left: 280px;
+    color: white;
+}
+
+
+
+.Contact {
+    position: relative;
+    top: 127px;
+    left: 800px;
+    font-size: 20px;
+}
+
+#emailColor {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
