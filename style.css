@@ -1,7 +1,7 @@
 html{
     overflow-x: hidden;
 }
-/* In the html selector I mafe the overflow of the x axis hidden. This was because my web page allowed for me to scroll way too much to the right side of the page. */
+/* In the html selector I made the overflow of the x axis hidden. This was because my web page allowed for me to scroll way too much to the right side of the page. */
 
 header {
     display: flex;
@@ -12,9 +12,10 @@ header {
 
 h1{
     font-size: x-large;
-    font-family: sans-serif;
+    font-family: sans-serif, Arial, Helvetica, sans-serif;
     color: white;
 }
+/* The h1 selector includes adjustments for the font size to be x-large because it's a title. The font family of sans serif, Arial, and Helvetica are in order from what I prefer. In case one font fails to load, I have backups. Lastly, the color of the fonts are white because it compliments the ocean blue.  */
 
 #titleWork {
     text-decoration: underline;
