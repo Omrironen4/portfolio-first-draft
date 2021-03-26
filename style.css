@@ -8,9 +8,8 @@ header {
     display: flex;
     padding: 1%;
     background-color: #13293d;
-    color: white;
 }
-/*  */
+/* The header selector has a display flex so when the viewport gets smaller, the header can adjust accordingly. The padding of 1% fits nicely. The background color is ocean blue. */
 
 h1{
     font-size: x-large;
