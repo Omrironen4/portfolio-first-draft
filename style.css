@@ -1,8 +1,7 @@
-html, body {
-    max-width: 100%;
+html{
     overflow-x: hidden;
 }
-/* In the html, body selectors I made the max width 100% and the overflow of the x axis hidden. This was because my web page allowed for me to scroll way too much to the right side of the page. */
+/* In the html selector I mafe the overflow of the x axis hidden. This was because my web page allowed for me to scroll way too much to the right side of the page. */
 
 header {
     display: flex;
