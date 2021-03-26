@@ -2,6 +2,7 @@ html, body {
     max-width: 100%;
     overflow-x: hidden;
 }
+/* In the html, body selectors I made the max width 100% and the overflow of the x axis hidden. This was because my web page allowed for me to scroll way too much to the right side of the page. */
 
 header {
     display: flex;
@@ -9,6 +10,7 @@ header {
     background-color: #13293d;
     color: white;
 }
+/*  */
 
 h1{
     font-size: x-large;
@@ -18,11 +20,6 @@ h1{
 
 #titleWork {
     text-decoration: underline;
-}
-
-.container {
-    width: 100%;
-    margin: 5px auto;
 }
 
 .tabs {
