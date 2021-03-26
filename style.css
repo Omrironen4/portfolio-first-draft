@@ -22,32 +22,27 @@ h1{
 }
 /* This is the id selector of the span tag. The "work portfolio" part in the title is now underlined. */
 
-.tabs {
+nav ul {
     position: absolute;
     top: 22px;
     right: 51px;
     display: inline-flex;
-    width: 300px;
 }
-/* The tabs class is using absolute positioning to completely remove the tabs from the document flow, and it's useful for sticking something in a specific position but you don’t want anything else to move around it. Position absolute allows you to do top left right and bottom to it, but I only adjusted the top and right to get the right positioning. The display is inline-flex because I want the tabs to be in line and not stacked on top of each other, and when I adjust the screen the tabs move accordingly with the flex. The width of 300px allowed for more spaces between the tabs because they were too close togethe.*/
+/* The nav parent selector with the child selector unordered list was given absolute positioning to completely remove the navigators from the document flow, and absoute positioning is useful for sticking something in a specific position but you don’t want anything else to move around it. Position absolute allows you to do top left right and bottom to it, but I only adjusted the top and right to get the right positioning. The display is inline-flex because I want the tabs to be in line and not stacked on top of each other and also resposnsive to the changes of the viewport.*/
 
 nav a {
     color: white;
     font-size: large;
-}
+    display: flex;
+    width: 100px; 
+} 
+/* The parent selector nav also has its child selector the a tag, to specify that for every anchor tag I wanted the font to be a large size and also colored white.  */
 
 nav a:hover {
     font-weight: 900;
     font-style:unset;
 }
-
-
-
-nav ul{
-    display: flex;
-    justify-content: space-between; 
-    display: inline-block;
-}
+/* When I hover over the nav anchors I gave the font a bold and unique unset style. */
 
 body {
     margin: 0;
