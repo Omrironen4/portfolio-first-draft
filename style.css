@@ -20,16 +20,16 @@ h1{
 #titleWork {
     text-decoration: underline;
 }
+/* This is the id selector of the span tag. The "work portfolio" part in the title is now underlined. */
 
 .tabs {
     position: absolute;
     top: 22px;
     right: 51px;
     display: inline-flex;
-    justify-content: space-between;
     width: 300px;
 }
-
+/* The tabs class is using absolute positioning to completely remove the tabs from the document flow, and it's useful for sticking something in a specific position but you don’t want anything else to move around it. Position absolute allows you to do top left right and bottom to it, but I only adjusted the top and right to get the right positioning. The display is inline-flex because I want the tabs to be in line and not stacked on top of each other, and when I adjust the screen the tabs move accordingly with the flex. The width of 300px allowed for more spaces between the tabs because they were too close togethe.*/
 
 nav a {
     color: white;
