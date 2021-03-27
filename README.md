@@ -1,7 +1,7 @@
 Homework Assignment #2:
 Link for website: https://omrironen4.github.io/portfolio-homework-2/
 
-In this assignment I was not given any starter code and I had to build an application from scratch. I build an html page as well as a stylesheet css page. Together I implemented a website that shows my work portfolio. This website needs a lot more work, and I need to continuously add my projects onto this website in the future. So far, I used the best of my abilities given my current knowledge in coding to follow the instructions given. In the link above you will be able to reach my portfolio website and check out one of my first ever coding projects. 
+In this assignment I was not given any starter code and I had to build an application from scratch. I built an html page as well as a stylesheet css page. Together I implemented a website that shows my work portfolio. This website needs a lot more work, and I need to continuously add my projects onto this website in the future. So far, I used the best of my abilities given my current knowledge in coding to follow the instructions given. In the link above you will be able to reach my portfolio website and check out one of my first ever coding projects. 
 
 
 <img width="1440" alt="Screen Shot 2021-03-27 at 4 02 22 PM" src="https://user-images.githubusercontent.com/72667204/112737207-e391cb00-8f15-11eb-9575-702d222c5e04.png">
