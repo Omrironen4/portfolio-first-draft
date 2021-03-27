@@ -1,5 +1,12 @@
+:root {
+  --white: rgb(255,255,255); 
+}
+
+
+
 html{
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
+    display: flex;
 }
 /* In the html selector I made the overflow of the x axis hidden. This was because my web page allowed for me to scroll way too much to the right side of the page. */
 
@@ -7,13 +14,14 @@ header {
     display: flex;
     padding: 1%;
     background-color: #13293d;
+    color: var(--white);
 }
 /* The header selector has a display flex so when the viewport gets smaller, the header can adjust accordingly. The padding of 1% fits nicely. The background color is ocean blue. */
 
 h1{
     font-size: x-large;
     font-family: sans-serif, Arial, Helvetica, sans-serif;
-    color: white;
+    color: var(--white);
 }
 /* The h1 selector includes adjustments for the font size to be x-large because it's a title. The font family of sans serif, Arial, and Helvetica are in order from what I prefer. In case one font fails to load, I have backups. Lastly, the color of the fonts are white because it compliments the ocean blue.  */
 
@@ -28,10 +36,10 @@ nav ul {
     right: 51px;
     display: inline-flex;
 }
-/* The nav parent selector with the child selector unordered list was given absolute positioning to completely remove the navigators from the document flow, and absoute positioning is useful for sticking something in a specific position but you don’t want anything else to move around it. Position absolute allows you to do top left right and bottom to it, but I only adjusted the top and right to get the right positioning. The display is inline-flex because I want the tabs to be in line and not stacked on top of each other and also resposnsive to the changes of the viewport.*/
+/* The <nav> parent selector with the child selector unordered list was given absolute positioning to completely remove the navigators from the document flow, and absoute positioning is useful for sticking something in a specific position but you don’t want anything else to move around it. Position absolute allows you to do top left right and bottom to it, but I only adjusted the top and right to get the right positioning. The display is inline-flex because I want the tabs to be in line and not stacked on top of each other and also resposnsive to the changes of the viewport.*/
 
 nav a {
-    color: white;
+    color: var(--white);
     font-size: large;
     display: flex;
     width: 100px; 
@@ -47,6 +55,7 @@ nav a:hover {
 body {
     line-height: 2;
     background-color: #000;
+    color: var(--white);
 }
 /* Here I made the line height accross the body 2, so the lines have more space between them. I also made the background color black. */
 
@@ -78,7 +87,7 @@ body {
     position: relative;
     top: 30px;
     left: 900px;
-    color: white;
+    color: var(--white);
     text-decoration: underline;
 }
 /* The about me id is the header for that section, and I positioned it relatively with a top and left. The color of the font is white with an underline text decoration. */
@@ -86,7 +95,7 @@ body {
     position: relative;
     top: -300px;
     left: 700px;
-    color: white;
+    color: var(--white);
     width: 500px;
     margin: 20px;  
 }
@@ -107,7 +116,7 @@ body {
     position: relative;
     top: 30px;
     left: 900px;
-    color: white;
+    color: var(--white);
     text-decoration: underline;
 }
 /* This is the title for the "my work" section. The position is relative with a top and a left. The font color is white and includes a text-decoration of an underline. */
@@ -115,7 +124,7 @@ body {
     position: relative;
     top: -500px;
     left: 700px;
-    color: white;
+    color: var(--white);
     width: 500px;
     height: 0;
     margin: 20px;
@@ -125,7 +134,7 @@ body {
     position: relative;
     top: 190px;
     left: 280px;
-    color: white;
+    color: var(--white);
     text-decoration: underline;
 }
 /* Contact me is the id for the header "contact me". It has a top and left positioning with a font color of white. The text decoration gives the title heading an underline. */
@@ -135,20 +144,92 @@ body {
     top: 127px;
     left: 800px;
     font-size: 20px;
-    color: white;
+    color: var(--white);
 }
 /* This is the contact information that I grouped together using position relative with a top and left. */
 
 #emailColor {
-    color: white;
+    color: var(--white);
 }
 /* The email color id makes the email link printed white instead of purple. */
 
 
 
+nav ul {
+    float: left;
+    display: inline-flex;
+    color: var(--white);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
 
+@media screen and (max-width: 900px) {
+    #WelcomePic {
+        display: none;
+    }
+    #MePic{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: 2mm;
+    left: 9mm;
+    }
 
+    #AboutMe {
+        top: 30px;
+        left: 400px;
+    }
 
+    #bib {
+        top: -100px;
+        left: 200px; 
+    }
+    #MyWorkPic {
+        object-fit: cover;
+        border-radius: 56%;
+        width: 220px;
+        height: 220px;
+        position: relative;
+        top: 2mm;
+        left: 3mm;
+    }
+    #MyWork{
+    position: relative;
+    top: 30px;
+    left: 500px;
+    color: var(--white);
+    text-decoration: underline;
+    }
 
+    #MyWorkBib {
+        position: relative;
+        top: -200px;
+        left: 300px;
+        color: var(--white);
+        width: 500px;
+        height: 0;
+        margin: 20px;
+    }
+    #ContactMe {
+        position: relative;
+        top: 190px;
+        left: 80px;
+        color: var(--white);
+        text-decoration: underline;
+    }
+    .Contact {
+        position: relative;
+        top: 127px;
+        left: 300px;
+        font-size: 20px;
+        color: var(--white);
+    }
+
+}
+
+   
 
 
