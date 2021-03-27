@@ -45,16 +45,16 @@ nav a:hover {
 /* When I hover over the nav anchors I gave the font a bold and unique unset style. */
 
 body {
-    margin: 0;
     line-height: 2;
-    /* background-color:#521e27; */
     background-color: #000;
 }
+/* Here I made the line height accross the body 2, so the lines have more space between them. I also made the background color black. */
 
 #Welcome {
    position: relative;
    right: -43%;
 }
+/* Here is the Welcome id inside the h1 tag which positions the welcome header to be in the top middle of the body */
 
 #WelcomePic {
     display: flex;
@@ -62,7 +62,7 @@ body {
     height: 690px;
     border-radius: 200px;
 }
-
+/* This is the id for the welcome picture in the beginning of the page. I changed the width and height as well as border radius to make the picture more round. */
 
 #MePic {
     object-fit: cover;
@@ -73,25 +73,24 @@ body {
     top: 2mm;
     left: 49mm;
 }
-
+/* This is the id for my picture in the "About me" section. The object-fit: cover made my picture look undistorted. The border radius made it a circular shape. The position is relative with top and left dimensions for the positioning.  */
 #AboutMe {
     position: relative;
     top: 30px;
     left: 900px;
     color: white;
+    text-decoration: underline;
 }
-
+/* The about me id is the header for that section, and I positioned it relatively with a top and left. The color of the font is white with an underline text decoration. */
 #bib {
     position: relative;
-    top: 0px;
-    left: 0px;
-    color: white;
-    width: 500px;
-    height: 0;
-    margin: 20px;
     top: -300px;
     left: 700px;
+    color: white;
+    width: 500px;
+    margin: 20px;  
 }
+/* This is the paragraph tag id that has the description about me. The position is relative with a top and left. The color of the text is white. The width is 500px to make the text more in a paragraph shape. The margin makes the paragraph fit in the page nicely.  */
 
 #MyWorkPic {
     object-fit: cover;
@@ -102,51 +101,48 @@ body {
     top: 2mm;
     left: 31mm;
 }
+/* This is the id for my project's picture. The object-fit: cover made my picture look undistorted. The border radius made it a circular shape. The width and height made the picture bigger as wanted in the homework propmt. The position is relative with top and left dimensions for the positioning. */
 
 #MyWork {
     position: relative;
     top: 30px;
     left: 900px;
     color: white;
+    text-decoration: underline;
 }
-
+/* This is the title for the "my work" section. The position is relative with a top and a left. The font color is white and includes a text-decoration of an underline. */
 #MyWorkBib {
     position: relative;
-    top: 0px;
-    left: 0px;
+    top: -500px;
+    left: 700px;
     color: white;
     width: 500px;
     height: 0;
     margin: 20px;
-    top: -500px;
-    left: 700px;
 }
-
+/* This is the id for my <p> tag where I write about my project. The position is relative with a top and a left. The color is white, and the width height and margin allows for the correct placement */
 #ContactMe {
     position: relative;
     top: 190px;
     left: 280px;
     color: white;
+    text-decoration: underline;
 }
-
-
+/* Contact me is the id for the header "contact me". It has a top and left positioning with a font color of white. The text decoration gives the title heading an underline. */
 
 .Contact {
     position: relative;
     top: 127px;
     left: 800px;
     font-size: 20px;
+    color: white;
 }
+/* This is the contact information that I grouped together using position relative with a top and left. */
 
 #emailColor {
     color: white;
 }
-
-p {
-    color: white;
-}
-
-
+/* The email color id makes the email link printed white instead of purple. */
 
 
 
